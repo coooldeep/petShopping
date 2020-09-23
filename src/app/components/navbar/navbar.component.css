@@ -1,0 +1,148 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+
+.hm-gradient {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.darken-grey-text {
+    color: #2E2E2E;
+}
+
+.navbar .dropdown-menu a:hover {
+    color: #616161 !important;
+}
+.darken-grey-text {
+    color: #2E2E2E;
+}
+.w-120{
+    max-width:120px;
+}
+.plr-30{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+li.nav-item {
+    padding-right: 15px;
+}
+.navbar-nav .nav-item .nav-link {
+   
+    font-weight: 600;
+    font-size: 18px;
+}
+.sign-in{
+    color: black !important;
+    padding-left: 15px;
+    letter-spacing: 2px;
+    padding-right: 15px;
+    background-color: #fbb034 !important;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%) !important;
+    border-radius: 13px;
+
+}
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: auto;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+/* background-color: rgba(0,0,0,0.5) !important; */
+}
+
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: black;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -9px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: black;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+font-size: 20px;
+letter-spacing: 2px;
+padding: .85rem 2.13rem;
+font-weight:600;
+}
+
+.login_btn:hover{
+color: white;
+background-color: black;
+}
+.modal-footer{
+    display: block !important;
+}
+
+.links{
+color: black;
+}
+
+.links a{
+margin-left: 4px;
+}
+.dis-flex{
+    display: flex;
+}
+.input-back{
+    background: white;
+    color:black;
+}
+.bg-yellowGradient{
+    background-color: #fbb034 !important;
+background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%) !important;
+}

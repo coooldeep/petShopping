@@ -1,0 +1,82 @@
+
+<app-navbar></app-navbar>
+<div class="">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="./assets/rabbit.jpg" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+            <div class="product-title mb-1">
+                <h1 class="product-namme">Chinchilla</h1>
+            </div>
+           <div class="reviews-price dis-flex mb-2">               
+                    <p class="price w-50">U+20B9 2,199.00</p>                 
+                    <div class="rating w-50 txt-right">
+                        <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
+                        <input type="radio" id="star9" name="rating" value="9" /><label for="star9" title="Rocks!">4 stars</label>
+                        <input type="radio" id="star8" name="rating" value="8" /><label for="star8" title="Pretty good">3 stars</label>
+                        <input type="radio" id="star7" name="rating" value="7" /><label for="star7" title="Pretty good">2 stars</label>
+                        <input type="radio" id="star6" name="rating" value="6" /><label for="star6" title="Meh">1 star</label>
+                          
+                    </div>    
+                    <span class="pl-1 pt-2">rating</span>       
+           </div>
+           <div [ngClass]="{'show-less': showShortDesciption}">
+            Feed your dog the wholesome goodness of Wild Earth’s Clean Protein Formula
+             Plant-Based Dry Dog Food! This recipe is nutritionally complete and formulated 
+             with prebiotic fibers to promote a healthy <button class="show-less" type="button" (click)="alterDescriptionText()">
+                {{ showShortDesciption ? 'SHOW ALL': 'SHOW LESS' }}
+               </button> Feed your dog the wholesome goodness of Wild Earth’s Clean Protein Formula
+             Plant-Based Dry Dog Food! This recipe is nutritionally complete and formulated 
+             with prebiotic fibers to promote a healthy  Feed your dog the wholesome goodness of Wild Earth’s Clean Protein Formula
+             Plant-Based Dry Dog Food! This recipe is nutritionally complete and formulated 
+             with prebiotic fibers to promote a healthy  Feed your dog the wholesome goodness of Wild Earth’s Clean Protein Formula
+             Plant-Based Dry Dog Food! This recipe is nutritionally complete and formulated 
+             with prebiotic fibers to promote a healthy 
+            
+           </div>
+           <!-- <div class="description-product">
+            
+           </div> -->
+           <div class="size-quantity dis-flex">
+               <div class="size w-50">
+                <div class="w-50">Size:</div> 
+               <div class="sizes-boxes">
+                <div class="size-box mb-2">1.0 kg</div> 
+                <div class="size-box mb-2">1.0 kg</div> 
+               </div>   
+               </div>
+                <div class="quantity-boxes w-50">
+                <p class="rating w-50 txt-right">Quantity</p>
+               <div class="adding item">
+                   <div>+</div>
+                   <div class="size-box mb-2">22</div>
+                   <div>-</div>
+               </div>
+                </div>
+       </div>
+       
+       <button type="submit" class="btn btn-secondary btn-full " name="add" >
+        Add To Cart        
+        </button>
+        <div class="about-product">
+            <p>Availability: 1890 in stock</p>
+            <p>Product Type: Dry Food</p>
+            <p>Vendor: Wild Earth</p>
+            <p>Country of Origin: America</p>
+        </div>
+        <div class="checker-form">
+            <div class="elm-container">
+         <img class="icon-delivery" src="//cdn.shopify.com/s/files/1/0086/0795/7054/t/280/assets/delivery.svg?v=770440731884821323">
+         <span class="icon-pin">Eligible for delivery?</span>
+         <input type="text" name="checkout_shipping_address_zip" id="checkout_shipping_address_zip" value="" placeholder="Enter Pincode">
+         <a href="javascript:void(0)" id="check_pincode">Check</a>
+        </div>
+        <div class="delivery-message">
+       
+            </div>
+       </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,156 @@
+
+<div class="">
+    <nav class="plr-30 navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand" href="#">
+        <img  src="./assets/dummy.png" class="w-120" > 
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-5" aria-controls="navbarSupportedContent-5" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-5">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#">BOOK AN APPOINMENT</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" [routerLink]="['/shop']">SHOP</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#">ELEMENTS</a>
+            </li>
+    
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages 
+                    </a>
+                <div class="dropdown-menu dropdown-purple" aria-labelledby="#navbarDropdownMenuLink-5">
+                    <a class="dropdown-item" href="#">Services</a>
+                    <a class="dropdown-item" href="#">Avout Us </a>
+                    <a class="dropdown-item" href="#">Home</a>
+                </div>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#">BLOGS</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#">CONTACT US</a>
+            </li>
+            <li class="nav-item "  (click)="open(mySubscribe)">
+                <a class="nav-link" href="#">SUBSCRIBE</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav  nav-flex-icons">
+            <li class="nav-item">
+                <!-- <a class="nav-link waves-effect waves-light btn sign-in"> Sign In</a> -->
+                <button class="btn btn-lg btn-outline sign-in" (click)="open(mymodal)">Sign In</button>
+            </li>
+        </ul>
+    </div>
+</nav>
+</div>
+
+<ng-template #mymodal let-modal class="bg-yellowGradient">
+    <div class="modal-header">
+        <h3>Sign In</h3>
+        <div class="d-flex justify-content-end social_icon">
+            <span><i class="fa fa-facebook-square"></i></span>
+            <span><i class="fa fa-google-plus-square"></i></span>
+            <span><i class="fa fa-twitter-square"></i></span>
+        </div>
+    </div>
+    <div class="modal-body">
+        <form>
+            <div class="input-group form-group dis-flex">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-user pl-2"></i></span>
+                </div>
+                <input type="text" class="form-control input-back pl-2" placeholder="username">
+                
+            </div>
+            <div class="input-group form-group dis-flex">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-key pl-2"></i></span>
+                </div>
+                <input type="password" class="form-control input-back pl-2" placeholder="password">
+            </div>
+            <div class="row align-items-center remember">
+                <input type="checkbox pl-2">Remember Me
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn float-right login_btn">
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <div class="d-flex justify-content-center links">
+                    Don't have an account?<a href="#">Sign Up</a>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="#">Forgot your password?</a>
+                </div>
+    </div>
+  </ng-template>
+  <ng-template #mySubscribe let-modal class="bg-yellowGradient">
+    <div class="modal-header">
+        <h3>Try Our Subscription</h3>
+        <!-- <div class="d-flex justify-content-end social_icon">
+            <span><i class="fa fa-facebook-square"></i></span>
+            <span><i class="fa fa-google-plus-square"></i></span>
+            <span><i class="fa fa-twitter-square"></i></span>
+        </div> -->
+    </div>
+    <div class="modal-body">
+        <!-- <form>
+            <div class="input-group form-group dis-flex">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-user pl-2"></i></span>
+                </div>
+                <input type="text" class="form-control input-back pl-2" placeholder="username">
+                
+            </div>
+            <div class="input-group form-group dis-flex">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-key pl-2"></i></span>
+                </div>
+                <input type="password" class="form-control input-back pl-2" placeholder="password">
+            </div>
+            <div class="row align-items-center remember">
+                <input type="checkbox pl-2">Remember Me
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn float-right login_btn">
+            </div>
+        </form> -->
+       
+            <div class="card cardd bg-yellowGradient mb-2">
+                <div class="p-2">
+                    <h2 class="price">$60/year</h2>
+                    <p class="package">pro Package</p>
+                </div>
+             </div>
+             <div class="card cardd bg-yellowGradient mb-2">
+                <div class="p-2">
+                    <h2 class="price">$60/year</h2>
+                    <p class="package">pro Package</p>
+                </div>
+             </div>
+             <div class="card cardd bg-yellowGradient mb-2">
+                <div class="p-2">
+                    <h2 class="price">$60/year</h2>
+                    <p class="package">pro Package</p>
+                </div>
+             </div>
+      
+    </div>
+    <div class="modal-footer">
+        <!-- <div class="d-flex justify-content-center links">
+                    Don't have an account?<a href="#">Sign Up</a>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="#">Forgot your password?</a>
+                </div> -->
+    </div>
+  </ng-template>
+ 

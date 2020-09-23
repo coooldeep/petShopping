@@ -1,0 +1,274 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css";
+body{
+    overflow: hidden !important;
+    font-family: Roboto,sans-serif;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  .pic-font{
+    z-index: 6;
+    color: rgb(255, 255, 255);
+    width: 600px;
+    height: 100px;
+  }
+  .brand, .brand-two{
+    z-index: 7;
+    font-family: Nunito;
+    height: auto;
+    width: auto;
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .brand p, .brand-two p{
+    font-size: 7rem;
+    font-weight: 900;
+  }
+
+  .slider-content-two, .slider-content{
+    z-index: 8;
+    font-family: Nunito;
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    white-space: normal;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  
+  .text-webkitcenter, .text-webkitcenter-2{
+    text-align: left;
+    padding-left: 250px;
+    
+  }
+  .pt-100{
+    padding-top:100px;
+  }
+  .slider-img{
+    z-index: 5;
+    color: rgb(255, 255, 255);
+    width: 250px;
+    height: 504px;
+   
+  }
+  .slider-img-two{
+    z-index: 5;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    height: 600px;
+    margin-right: 250px;
+  }
+  .animal-img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  .ml-auto{
+      margin-left:auto;
+  }
+  .mr-auto{
+      margin-right: auto;
+  }
+  .carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon{
+    background-color: #ab47bc;
+    min-width: 70px;
+    min-height: 70px;
+  }
+  .carousel{
+    background-color: #fbb034 !important;
+background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%) !important;
+height: 600px;
+
+}
+.bg-yellowGradient{
+    background-color: #fbb034 !important;
+background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%) !important;
+}
+.mb-40{
+    margin-bottom:40px;
+}
+.mt-40{
+    margin-top:40px;
+}
+.title-holder{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.bg-white{
+    background: white;
+}
+.m-50{
+    margin:50px;
+}
+.p-50{
+    padding: 50px;
+}
+
+.title-tag{
+    color: rgb(154, 167, 175);
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 7px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.dark_subtitle {
+    color: #9AA7AF;
+}
+.over-hidden{
+    overflow: hidden;
+}
+.animal-description-title{
+    font-size: 30px;
+    color: #252525;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.animal-description{
+    text-align: center;
+    color: rgba(37,37,37,.7);
+    max-width: 50%;
+    margin: 0 auto;
+    font-weight: 400;
+    justify-content: center;
+}
+.animal-description-service{
+    text-align: center;
+    color: rgba(37,37,37,.7);
+    margin: 0 auto;
+    font-weight: 400;
+    justify-content: center;
+}
+.tumblr{
+    background: #35465c; -webkit-transition: all 0.5s ease-in-out
+}
+.tumblr:hover {background: #142030}
+.tumblr:focus {background: #fff; color: #35465c; border-color: #35465c}  
+.btn .fa{
+    margin-left:12px;
+}
+.text-center{
+    text-align: center;
+}
+.body-bg{
+    background: #cccccc2b;
+}
+.service-name{
+    font-size: 23px;
+    color: #252525;
+    line-height: 35px;
+    text-align: left;
+    font-family: Nunito;
+    font-weight: 700;
+    font-style: normal;
+}
+.service{
+    display: flex;
+    max-width: 80% !important;
+}
+.service-number{
+    font-size: 48px;
+    font-weight: 700;
+    margin-right: 38px;
+}
+.text-left{
+    text-align: left !important;
+}
+.margin-auto{
+    margin:auto;
+}
+carosel-p{
+    text-align: right;
+    padding-right: 250px;
+}
+.btn{
+    color:white;
+    
+}
+.slide-two{
+    padding-left: 250px !important;
+    margin-left: 0;
+    max-width: 705px;
+}
+@media screen and (max-width: 768px){
+.text-webkitcenter-2 {
+    text-align: left;
+    padding-left: 0 !important;
+}
+.pic-font {
+    z-index: 6;
+    color: rgb(255, 255, 255);
+    width: 339px;
+    height: 100px;
+}
+.brand p, .brand-two p{
+    padding-left: 0px !important;
+   font-size: 5rem;
+}
+}
+.text-middle{
+    justify-content: center;
+    display: flex;
+}
+.pet-hosted{
+    box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.06);
+    padding: 8px 0 16px;
+    max-width: 244px;
+}
+.hosted-name{
+    font-size: 22px;
+    font-weight: 600;
+}
+.hosted-num{
+    font-size: 5rem;
+    font-weight: 600;
+    
+}
+.mlr-30{
+    margin-left:30px;
+    margin-right:30px;
+}
+.img-responsive{
+    width:100%;
+    height:auto;
+}
+.book-appointment{
+    font-size: 3rem;
+    font-weight:600;
+}
+.price{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.package{
+    font-weight: 900;
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 24px;
+}
+.p-5 ul li {
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.7;
+    padding: 3px 0px;
+    text-transform: none;
+    list-style-type: none;
+}
+.cardd{
+    width:75%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.pl-0{
+    padding-block: 0 !important;
+}
